@@ -2,10 +2,10 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "c:gold_ingots/"
+      "tag": "c:gold_ingots"
     },
     {
-      "tag": "c:silver_ingots/"
+      "tag": "c:silver_ingots"
     }
   ],
   "results": [
