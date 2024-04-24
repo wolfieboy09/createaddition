@@ -207,9 +207,6 @@ public class LiquidBlazeBurnerBlockEntity extends SmartBlockEntity implements IH
 			return;
 		}
 		
-		if (remainingBurnTime > 0)
-			remainingBurnTime--;
-
 		if (remainingBurnTime > 0 && !isCreative)
 			remainingBurnTime--;
 
