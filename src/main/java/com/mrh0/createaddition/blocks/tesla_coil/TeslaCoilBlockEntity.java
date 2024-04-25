@@ -19,6 +19,7 @@ import io.github.fabricators_of_create.porting_lib.transfer.item.ItemStackHandle
 import io.github.fabricators_of_create.porting_lib.transfer.item.ItemStackHandlerContainer;
 import io.github.fabricators_of_create.porting_lib.transfer.item.RecipeWrapper;
 import net.fabricmc.fabric.api.transfer.v1.context.ContainerItemContext;
+import net.fabricmc.fabric.api.transfer.v1.item.base.SingleStackStorage;
 import net.fabricmc.fabric.api.transfer.v1.transaction.Transaction;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
@@ -208,7 +209,18 @@ public class TeslaCoilBlockEntity extends BaseElectricBlockEntity implements IHa
 			final TransportedItemStack ignoredTransported,
 			final TransportedItemStackHandlerBehaviour ignoredHandler
 	) {
-		ContainerItemContext context = ContainerItemContext.withConstant(stack);
+		final ItemStack[] finalStack = {stack.copy()};
+		ContainerItemContext context = ContainerItemContext.ofSingleSlot(new SingleStackStorage() {
+			@Override
+			protected ItemStack getStack() {
+				return finalStack[0];
+			}
+
+			@Override
+			protected void setStack(ItemStack stack) {
+				finalStack[0] = stack;
+			}
+		});
 		final EnergyStorage es =  EnergyStorage.ITEM.find(stack, context);
 
 		if (es == null)
@@ -223,7 +235,7 @@ public class TeslaCoilBlockEntity extends BaseElectricBlockEntity implements IHa
 			localEnergy.internalConsumeEnergy(es.insert(Math.min(getConsumption(), localEnergy.getAmount()), t));
 			t.commit();
 		}
-		stack.setTag(context.getItemVariant().copyNbt());
+		stack.setTag(finalStack[0].getTag());
 		return true;
 	}
 
