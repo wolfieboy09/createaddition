@@ -17,7 +17,7 @@
 		},
 		"G":
 		{
-			"tag": "c:emerald_gems"
+			"item": "minecraft:emerald"
 		}
 	},
 	"result":{
