@@ -162,7 +162,7 @@ public class PonderScenes {
 		scene.configureBasePlate(1, 0, 4);
 		scene.world.showSection(util.select.layer(0), Direction.UP);
 
-		BlockPos mill = util.grid.at(3, 2, 2);
+		BlockPos mill = util.grid.at(3, 1, 2);
 		BlockPos in = util.grid.at(3, 2, 3);
 		BlockPos out = util.grid.at(3, 2, 1);
 
@@ -186,7 +186,7 @@ public class PonderScenes {
 
 		scene.addKeyframe();
 		scene.overlay.showText(50)
-				.text("The Rolling Mill can be automated using a Belt and two Funnels")
+				.text("The Rolling Mill can be automated by placing it between two belts")
 				.placeNearTarget()
 				.pointAt(util.vector.topOf(mill));
 		scene.idle(60);

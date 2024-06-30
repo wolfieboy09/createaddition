@@ -162,7 +162,7 @@
 	"createaddition.ponder.rolling_mill.text_2": "Um Elemente manuell einzugeben, legen sie Barren oder Platten oben auf die Walze",
 	"createaddition.ponder.rolling_mill.text_3": "Klicken Sie mit der rechten Maustaste auf die Mühle, um die Ausgabeelemente manuell herauszunehmen",
 	"createaddition.ponder.automated_rolling_mill.header": "Automatisierung der Walze",
-	"createaddition.ponder.automated_rolling_mill.text_1": "Die Walze kann mit einem Band und zwei Trichtern automatisiert werden",
+	"createaddition.ponder.automated_rolling_mill.text_1": "Die Walze kann automatisiert werden, indem es zwischen zwei Bändern platziert wird",
 	"createaddition.ponder.automated_rolling_mill.text_2": "Eingangs Trichter",
 	"createaddition.ponder.automated_rolling_mill.text_3": "Ausgabe Trichter",
 	"createaddition.ponder.cc_electric_motor.header": "Man kann ComputerCraft nutzen um einen Elektrischer Motor kontrollieren",
