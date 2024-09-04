@@ -32,6 +32,8 @@ And more!
 
 # License
 
+By contributing to this project, you agree that your contributions will be licensed under the same MIT License that governs the project.
+
 Available under MIT the license more info at: https://tldrlegal.com/license/mit-license
 
 MIT License
