@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluidTag": "forge:honey"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "createaddition:biomass"
+    },
+    {
+      "item": "createaddition:biomass"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createaddition:bioethanol",
+      "amount": 125
+    }
+  ]
+}
