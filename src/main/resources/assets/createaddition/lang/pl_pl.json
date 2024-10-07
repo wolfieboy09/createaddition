@@ -1,0 +1,237 @@
+{
+	"createaddition.tooltip.energy.stored": "Zmagazynowana Energia:",
+	"createaddition.tooltip.energy.consumption": "Zużycie Energii:",
+	"createaddition.tooltip.energy.production": "Wytworzona Energia:",
+	"createaddition.tooltip.energy.charged": "Naładowany",
+	"createaddition.tooltip.energy.usage": "Wykorzystanie Sieci:",
+	"createaddition.tooltip.energy.demand": "Zużycie Sieci:",
+	"createaddition.tooltip.energy.supply": "Produkcja Sieciowa:",
+	"createaddition.tooltip.energy.selected": "Skoncentrowane Złącze:",
+	"createaddition.tooltip.energy.input": "Wejście",
+	"createaddition.tooltip.energy.output": "Wyjście",
+
+	"createaddition.tooltip.accumulator.info": "Informacje O Akumulatorze:",
+	"createaddition.tooltip.relay.info": "Informacje O Przekaźniku:",
+	"createaddition.tooltip.connector.info": "Informacje O Złączu:",
+
+	"createaddition.recipe.rolling": "Walcowanie",
+	"createaddition.recipe.crude_burning": "Spalanie Ropy",
+	"createaddition.recipe.crude_burning.burn_time": "Czas Spalania",
+
+	"desc.immersiveengineering.info.mineral.sphalerite": "Sfaleryt",
+
+	"item.createaddition.capacitor": "Kondensator",
+
+	"item.createaddition.multimeter": "Multimetr",
+	"item.createaddition.multimeter.title":"[Multimetr]:",
+	"item.createaddition.multimeter.measuring":"[Zmierzenie..]",
+	"item.createaddition.multimeter.ticks":"kleszcze",
+	"item.createaddition.multimeter.no_capability":"Brak Możliwości Forge Energii Po Tej Stronie.",
+	"item.createaddition.multimeter.tooltip": "MULTIMETER",
+	"item.createaddition.multimeter.tooltip.summary": "Measures _capacity_ and _input/output_ on any side with a _Forge energy capability_.",
+
+	"item.createaddition.zinc_sheet": "Blacha Cynkowa",
+	"item.createaddition.diamond_grit": "Pył Diamentowy",
+	"item.createaddition.diamond_grit_sandpaper": "Papier Ścierny O Ziarnie Diamentowym",
+	"item.createaddition.diamond_grit_sandpaper.tooltip": "PAPIER ŚCIERNY O ZIARNIE DIAMENTOWYM",
+
+	"item.createaddition.copper_spool": "Miedziana Szpula",
+	"item.createaddition.copper_spool.tooltip": "SZPULA",
+	"item.createaddition.copper_spool.tooltip.summary": "Prawy Przycisk Myszy Dwa _Złącza_ utworzy połączenie przewodowe między nimi i zwróci _Pustą Szpulę_.",
+
+	"item.createaddition.copper_wire": "Kabel Miedziany",
+	"item.createaddition.copper_rod": "Pręt Miedziany",
+
+	"item.createaddition.iron_spool": "Żelazna Szpula",
+	"item.createaddition.iron_wire": "Żelazny Drut",
+	"item.createaddition.iron_rod": "Żelazny Pręt",
+
+	"item.createaddition.steel_spool": "Stalowa Szpula",
+	"item.createaddition.steel_wire": "Stalowy Drut",
+	"item.createaddition.steel_rod": "Stalowy Pręt",
+
+	"item.createaddition.electrum_spool": "Szpula Elektrum",
+	"item.createaddition.electrum_wire": "Drut Elektrum",
+	"item.createaddition.electrum_rod": "Pręt Elektrum",
+
+	"item.createaddition.aluminum_spool": "Aluminiowa Szpula",
+	"item.createaddition.aluminum_wire": "Aluminiowy Drut",
+	"item.createaddition.aluminum_rod": "Aluminiowy Pręt",
+
+	"item.createaddition.gold_spool": "Złota Szpula",
+	"item.createaddition.gold_spool.tooltip": "SZPULA",
+	"item.createaddition.gold_spool.tooltip.summary": "Prawy Przycisk Myszy Dwa _Złącza_ utworzy połączenie przewodowe między nimi i zwróci _Pustą Szpulę_.",
+
+	"item.createaddition.gold_wire": "Złoty Drut",
+	"item.createaddition.gold_rod": "Złoty Pręt",
+
+	"item.createaddition.brass_rod": "Mosiężny Pręt",
+	"item.createaddition.bronze_rod": "Brązowy pręt",
+
+	"item.createaddition.cake_base": "Baza Ciasta",
+	"item.createaddition.cake_base_baked": "Pieczona Baza Do Ciasta",
+
+	"item.createaddition.seed_oil_bucket": "Wiadro Oleju Z Nasion",
+
+	"item.createaddition.charging_chromatic_compound": "Ładowanie Związku Chromatycznego",
+	"item.createaddition.overcharged_alloy": "Przeciążony Stop",
+	"item.createaddition.overcharged_alloy.tooltip": "PRZECIĄŻONY_STOP",
+	"item.createaddition.overcharged_alloy.tooltip.summary": "Materiał Chromatyczny wykuty przez _elektryczność_",
+
+	"item.createaddition.overcharged_hammer": "Przeciążony Młot",
+	"item.createaddition.overcharged_hammer.tooltip": "PRZECIĄŻONY_MŁOT",
+	"item.createaddition.overcharged_hammer.tooltip.summary": "Ten wierny _Młot_ został nasycony mocą _elektryczności_",
+
+	"item.createaddition.spool": "Pusta szpula",
+	"item.createaddition.spool.nbt": "Przechowuje lokalizację połączenia.",
+	"item.createaddition.spool.tooltip": "SZPULA",
+	"item.createaddition.spool.tooltip.summary": "Prawy Przycisk Myszy dwa _Złącza_ połączone przewodem usunie ogniwo i zwróci wypełnioną _szpulę_.",
+
+	"statusbar.createaddition.wire.linked": "Węzły połączone",
+	"statusbar.createaddition.wire.linked_in": "Kabel podłączony do wejścia",
+	"statusbar.createaddition.wire.linked_out": "Przewód podłączony do wyjścia",
+
+	"statusbar.createaddition.wire.connect": "Wybrano złącze kabla",
+	"statusbar.createaddition.wire.connect_in": "Wybrano wejście złącza przewodu",
+	"statusbar.createaddition.wire.connect_out": "Wybrano wyjście złącza przewodu",
+
+	"statusbar.createaddition.wire.long": "Kabel jest za długi",
+	"statusbar.createaddition.wire.obstructed": "Ścieżka drutu jest zablokowana",
+	"statusbar.createaddition.wire.count": "Węzeł przewodu jest pełny",
+	"statusbar.createaddition.wire.removed": "Drut usunięty",
+	"statusbar.createaddition.wire.exists": "Połączenie przewodowe już istnieje",
+	"statusbar.createaddition.wire.no_connection": "Kabel nie jest tutaj podłączony",
+	"statusbar.createaddition.wire.invalid": "Nieprawidłowe połączenie",
+
+	"block.createaddition.electric_motor": "Silnik elektryczny",
+	"deprecated.block.createaddition.electric_motor.tooltip": "SILNIK_ELEKTRYCZNY",
+	"deprecated.block.createaddition.electric_motor.tooltip.summary": "Generuje _su_ z _fe_ i ma konfigurowalną _prędkość_. Zużycie energii opiera się na zestawie _rpm_.",
+
+	"block.createaddition.alternator": "Alternator",
+	"deprecated.block.createaddition.alternator.tooltip": "ALTERNATOR",
+	"deprecated.block.createaddition.alternator.tooltip.summary": "Generuje _fe_ z _su_. Ilość wyprodukowanej energii opiera się na _rpm_.",
+
+	"block.createaddition.creative_energy": "Twórczy generator",
+	"block.createaddition.creative_energy.tooltip": "TWÓRCZY_GENERATOR",
+	"block.createaddition.creative_energy.tooltip.summary": "Generuje nieskończoną ilość _fe_.",
+
+	"block.createaddition.rolling_mill": "Walcownia",
+	"deprecated.block.createaddition.rolling_mill.tooltip": "WALCOWNIA",
+	"deprecated.block.createaddition.rolling_mill.tooltip.summary": "Element kinetyczny odpowiedni do _toczenia_ wstawionych _materiałów_. Można go zasilać poprzez podłączenie do wału po bokach. Wyniki należy wyodrębnić z komponentu.",
+	"deprecated.block.createaddition.rolling_mill.tooltip.condition1": "Przy zasilaniu przez Kinetics",
+	"deprecated.block.createaddition.rolling_mill.tooltip.behaviour1": "Rozpoczyna stosowanie _przepisów toczenia_ do dowolnych elementów wstawionych z boku lub od góry bloku.",
+	"deprecated.block.createaddition.rolling_mill.tooltip.condition2": "Gdy Prawy Przycisk Myszy",
+	"deprecated.block.createaddition.rolling_mill.tooltip.behaviour2": "Zbiera dane wyjściowe ręcznie.",
+
+	"block.createaddition.heater": "Nagrzewnica indukcyjna",
+	"block.createaddition.heater.info": "Informacje o nagrzewnicy indukcyjnej:",
+	"block.createaddition.heater.engine_heating_disabled": "Silniki pieców grzewczych zostały wyłączone w konfiguracjach.",
+	"deprecated.block.createaddition.heater.tooltip": "NAGRZEWNICA INDUKCYNJA",
+	"deprecated.block.createaddition.heater.tooltip.summary": "Po podłączeniu do _pieca_ i zasilaniu _fe_ od góry, nagrzeje _piec_. Nie będzie zasilać _silnika pieca_, chyba że zostanie _włączony_ w _configs_.",
+
+	"block.createaddition.accumulator": "Akumulator",
+	"block.createaddition.accumulator.tooltip": "AKUMULATOR",
+	"block.createaddition.accumulator.tooltip.summary": "Gromadzi ładunek elektryczny. ",
+	"block.createaddition.accumulator.tooltip.condition1": "Wyjście",
+	"block.createaddition.accumulator.tooltip.behaviour1": "Zapewnia _fe_ _przewodom_ podłączonym do _złącza_ oznaczonego strzałką skierowaną w górę.",
+	"block.createaddition.accumulator.tooltip.condition2": "Wejście",
+	"block.createaddition.accumulator.tooltip.behaviour2": "Akceptuje _fe_ z _przewodów_ podłączonych do _złącza_ oznaczonego strzałką w dół.",
+
+	"block.createaddition.connector": "Złącze",
+	"block.createaddition.connector.tooltip": "ZŁĄCZE",
+	"block.createaddition.connector.tooltip.summary": "Łączy bloki kompatybilne z Forge Energy za pomocą _przewodów_ w celu przesyłania _fe_.",
+	"block.createaddition.connector.tooltip.control1": "Prawy przycisk myszy",
+	"block.createaddition.connector.tooltip.action1": "Trzymając miedzianą szpulę lub złotą szpulę, aby utworzyć połączenie przewodowe pomiędzy dwoma _złączami_.",
+
+	"block.createaddition.redstone_relay": "Przekaźnik Redstone'a",
+	"block.createaddition.redstone_relay.tooltip": "PRZEKAŹNIK REDSTONE",
+	"block.createaddition.redstone_relay.tooltip.summary": "Umożliwia _fe_ przejście od _złącza wejściowego_ do _złącza wyjściowego_ podczas odbierania sygnału _redstone'a_.",
+	"block.createaddition.redstone_relay.tooltip.condition1": "Wyjście",
+	"block.createaddition.redstone_relay.tooltip.behaviour1": "Zapewnia _fe_ _przewodom_ podłączonym do _złącza_ oznaczonego strzałką skierowaną w górę.",
+	"block.createaddition.redstone_relay.tooltip.condition2": "Wejście",
+	"block.createaddition.redstone_relay.tooltip.behaviour2": "Akceptuje _fe_ z _przewodów_ podłączonych do _złącza_ oznaczonego strzałką w dół.",
+
+	"block.createaddition.furnace_burner": "Palnik piecowy",
+	"block.createaddition.furnace_burner.tooltip": "PALNIK_PIECOWY",
+	"block.createaddition.furnace_burner.tooltip.summary": "Ten _Piec_ nie będzie przetapiał przedmiotów, ale zamiast tego może zostać użyty do zasilania _Silnika Pieca_ bez konieczności stosowania przepisu na wytapianie. _Paliwo_ można załadować np. za pomocą _zbiornika_.",
+	"block.createaddition.furnace_burner.tooltip.control1": "Prawy przycisk myszy",
+	"block.createaddition.furnace_burner.tooltip.action1": "Wkłady trzymane _paliwo_.",
+	"block.createaddition.furnace_burner.tooltip.control2": "Prawy przycisk myszy podczas skradania się",
+	"block.createaddition.furnace_burner.tooltip.action2": "Odzyskuje zmagazynowane _paliwo_.",
+
+	"block.createaddition.charger": "Stacja ładowania",
+	"block.createaddition.charger.info": "Informacje o stacji ładującej:",
+	"block.createaddition.charger.empty": "Pusty",
+	"block.createaddition.charger.tooltip": "ŁADOWARKA",
+	"block.createaddition.charger.tooltip.summary": "Ładuje _elektryczne_ przedmioty za pomocą _fe_.",
+	"block.createaddition.charger.tooltip.control1": "Prawy przycisk myszy z ładowalnym przedmiotem",
+	"block.createaddition.charger.tooltip.action1": "Kładzie przedmiot na _ładowarce_.",
+	"block.createaddition.charger.tooltip.control2": "Prawy przycisk myszy z Pustą Ręką",
+	"block.createaddition.charger.tooltip.action2": "Pobiera przedmiot z _ładowarki_.",
+
+	"block.createaddition.crude_burner": "Spalacz ropy",
+	"block.createaddition.crude_burner.tooltip": "SPALACZ_ROPY",
+	"block.createaddition.crude_burner.tooltip.summary": "_Spalacz ropy_ zużywa wolno palące się łatwopalne ciecze, takie jak _olej z nasion, do zasilania silnika pieca_. _Paliwo płynne_ można wprowadzić za pomocą _Przewodów płynnych_.",
+	"block.createaddition.crude_burner.tooltip.control1": "Prawy przycisk myszy",
+	"block.createaddition.crude_burner.tooltip.action1": "Wstawia zawartość wstrzymanego _Wiaderko_.",
+
+	"block.createaddition.chocolate_cake": "Ciasto czekoladowe",
+	"block.createaddition.honey_cake": "ciasto miodowe",
+
+	"block.createaddition.seed_oil": "Olej z nasion",
+
+	"block.createaddition.overcharged_casing": "Przeciążona obudowa",
+
+	"block.createaddition.tesla_coil": "Cewka Tesli",
+
+	"itemGroup.createaddition:main":"Twórz Rękodzieło i Dodatki",
+
+	"createaddition.command.cca_api.link": "Kliknij tutaj, aby otworzyć dokumentację API",
+
+	"createaddition.ponder.tag.electric": "Urządzenia elektryczne",
+	"createaddition.ponder.tag.electric.description": "Komponenty zużywające energię elektryczną",
+
+	"createaddition.ponder.electric_motor.header": "Wytwarzanie siły obrotowej za pomocą silników elektrycznych",
+	"createaddition.ponder.electric_motor.text_1": "Silniki elektryczne są kompaktowym i konfigurowalnym źródłem siły obrotowej",
+	"createaddition.ponder.electric_motor.text_2": "Przewijanie na tylnym panelu zmienia prędkość obrotową wyjścia obrotowego silników",
+	"createaddition.ponder.electric_motor.text_3": "Silnik elektryczny wymaga źródła energii (fe)",
+	"createaddition.ponder.electric_motor.text_4": "Zużycie energii przez silniki jest określane na podstawie ustawionych obrotów",
+
+	"createaddition.ponder.alternator.header": "Wytwarzanie energii elektrycznej za pomocą alternatora",
+	"createaddition.ponder.alternator.text_1": "Alternator do działania potrzebuje co najmniej 32 obr./min",
+	"createaddition.ponder.alternator.text_2": "Wytwarza energię elektryczną (fe) z siły obrotowej",
+	"createaddition.ponder.alternator.text_3": "Produkcja energii jest określana na podstawie wejściowych obrotów na minutę",
+
+	"createaddition.ponder.rolling_mill.header": "Walcowanie metali na pręty i druty",
+	"createaddition.ponder.rolling_mill.text_1": "Walcownia wykorzystuje siłę obrotową do walcowania metali w pręty i druty",
+	"createaddition.ponder.rolling_mill.text_2": "Aby ręcznie wprowadzić elementy, upuść wlewki lub płytki na wierzch młyna",
+	"createaddition.ponder.rolling_mill.text_3": "Kliknij prawym przyciskiem myszy Młyn, aby ręcznie pobrać elementy wyjściowe",
+
+	"createaddition.ponder.automated_rolling_mill.header": "Automatyzacja walcowni",
+	"createaddition.ponder.automated_rolling_mill.text_1": "Walcarkę można zautomatyzować za pomocą taśmy i dwóch lejków",
+	"createaddition.ponder.automated_rolling_mill.text_2": "Lejek wejściowy",
+	"createaddition.ponder.automated_rolling_mill.text_3": "Lejek wyjściowy",
+
+	"createaddition.ponder.heater.header": "Wykorzystanie energii elektrycznej do ogrzewania pieca",
+	"createaddition.ponder.heater.text_1": "Grzejnik można umieścić po dowolnej stronie, skierowanej w stronę pieca",
+	"createaddition.ponder.heater.text_2": "Po podłączeniu do wystarczającego źródła energii elektrycznej (fe), Grzejnik zaświeci Piec",
+	"createaddition.ponder.heater.text_3": "Piec pozostanie włączony tak długo, jak długo będzie dostarczana wystarczająca ilość energii",
+
+	"createaddition.ponder.cc_electric_motor.header": "Używanie programu ComputerCraft do sterowania silnikiem elektrycznym",
+	"createaddition.ponder.cc_electric_motor.text_1": "Silnikiem elektrycznym można sterować za pomocą programu ComputerCraft",
+	"createaddition.ponder.cc_electric_motor.text_2": "Podłącz do silnika za pomocą 'peripheral.wrap(side)'",
+	"createaddition.ponder.cc_electric_motor.text_3": "Przejdź do dokumentacji API wydając polecenie '/cca_api' na czacie",
+
+	"createaddition.ponder.tesla_coil.header": "Używanie cewki Tesli do ładowania przedmiotów",
+	"createaddition.ponder.tesla_coil.text_1": "Cewka Tesli będzie ładować przedmioty znajdujące się pod nią",
+	"createaddition.ponder.tesla_coil.text_2": "Będzie ładować wszelkie elementy energii kuźni i nie tylko!",
+
+	"createaddition.ponder.tesla_coil_hurt.header": "Niebezpieczne cewki Tesli",
+	"createaddition.ponder.tesla_coil_hurt.text_1": "Cewka Tesli może również zadawać obrażenia pobliskim graczom i mobom",
+	"createaddition.ponder.tesla_coil_hurt.text_2": "Można to aktywować za pomocą sygnału Redstone",
+	"createaddition.ponder.tesla_coil_hurt.text_3": "Przygotuj się na szok!",
+
+	"effect.createaddition.shocking":"Wstrząśnięty",
+	"death.attack.tesla_coil": "%1$s doznał śmiertelnego porażenia prądem",
+	"death.attack.tesla_coil.player": "%1$s podczas walki został porażony prądem %2$s"
+}
